@@ -2,25 +2,26 @@
      <br>
     <form (ngSubmit)="salvarProduto()" #produtoForm="ngForm">
         <div class="form-group">
-            <label for="nome">Nome do Produto</label>
+            <label for="nome"><b>Nome do Produto</b></label>
             <input type="text" class="form-control" id="nome" [(ngModel)]="produto.nome"
             name="nome" required>
         </div>
         <br>
         <div class="form-group">
-            <label for="quantidade">Quantidade</label>
+            <label for="quantidade"><b>Quantidade</b></label>
             <input type="number" class="form-control" id="quantidade" [(ngModel)]="produto.quantidade"
             name="quantidade" required>
         </div>
         <br>
         <div class="form-group">
-            <label for="preco">Preço</label>
+            <label for="preco"><b>Preço</b></label>
             <input type="number" class="form-control" id="preco" [(ngModel)]="produto.preco"
             name="preco" required>
         </div>
         <br>
-        <button type="submit" class="btn btn-success mt-3" [disabled]="!produtoForm.form.valid">Salvar</button>
+        <button type="submit" class="btn btn-success mt-3" [disabled]="!produtoForm.form.valid"><b>Salvar</b></button>
     </form>
+    <br>
 
 </div>
     

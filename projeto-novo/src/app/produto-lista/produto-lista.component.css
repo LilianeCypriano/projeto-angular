@@ -1,0 +1,45 @@
+.btn-info {
+    background-color: rgb(187, 209, 209);
+    border: rgb(143, 177, 223);
+    color: rgb(51, 49, 49);
+}
+
+.btn-info:hover{
+    background-color: aliceblue;
+}
+
+.btn-danger {
+    background-color: rgb(223, 185, 174);
+    border: rgb(143, 177, 223);
+    color: rgb(51, 49, 49);
+}
+
+.btn-danger:hover{
+    background-color: aliceblue;
+}
+
+.btn-success{
+    background-color: rgb(168, 231, 187);
+    border: rgb(143, 177, 223);
+    color: rgb(51, 49, 49);
+}
+
+.btn-success:hover{
+    background-color: aliceblue;
+}
+
+.btn-sm{
+    margin-left: 2%;
+}
+
+table{
+    margin-bottom: 2em;
+    margin-top: 2em;  
+    width: 70%;
+    margin: auto;
+}
+
+th{
+    background-color: aliceblue;
+}
+
